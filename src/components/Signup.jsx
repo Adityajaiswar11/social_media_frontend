@@ -18,7 +18,6 @@ const Signup = () => {
       image: e.target.image.value,
     };
     const { name, password, email, number, image } = data;
-    console.log(image);
     if (!name || !password || !email || !number || !image)
       return toast.error("all  fields are required", { autoClose: 1000 });
     try {
