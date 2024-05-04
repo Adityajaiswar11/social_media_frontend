@@ -12,7 +12,7 @@ import Profile from "./components/Profile";
 import UpdatePost from "./components/UpdatePost";
 import Admin from "./components/Admin";
 import Allpost from "./components/Allpost";
-import SampleComponent from "./components/SampleComponent";
+
 
 
 export const context = createContext();
