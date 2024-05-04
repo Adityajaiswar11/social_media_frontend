@@ -64,7 +64,6 @@ const App = () => {
     >
       <BrowserRouter>
         <Navbar />
-        <SampleComponent/>
         <ToastContainer />
 
         <Routes>
