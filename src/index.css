@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus{
+   outline: 2px solid #2d68c0;
+}
+/* Works on Firefox */
+* {
+   scrollbar-width: thin;
+   scrollbar-color: blue white;
+ }
+ 
+ /* Works on Chrome, Edge, and Safari */
+ *::-webkit-scrollbar {
+   width: 5px;
+ }
+ 
+ /* *::-webkit-scrollbar-track {
+   background: orange;
+ } */
+ 
+ *::-webkit-scrollbar-thumb {
+   background-color: blue;
+   border: 1px solid orange;
+ }
