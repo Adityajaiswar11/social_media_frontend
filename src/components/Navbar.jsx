@@ -23,14 +23,14 @@ const Navbar = () => {
             className="text-md hover:text-blue-600 duration-200 font-semibold"
             onClick={logout}
           >
-            <Link to="/login">{userData?.name ? "Logout" : "Login"}</Link>
+            <li>{userData?.name ? "Logout" : "Login"}</li>
           </ul>
-          <ul className="text-md hover:text-blue-600 duration-200 font-semibold">
+          <li className="text-md hover:text-blue-600 duration-200 font-semibold">
             <Link to="/signup">{!userData?.name && "Register"}</Link>
-          </ul>
-          <ul className="text-md hover:text-blue-600 duration-200 font-semibold">
+          </li>
+          <li className="text-md hover:text-blue-600 duration-200 font-semibold">
             <Link to={`/post/${userData?.name}`}>Post</Link>
-          </ul>
+          </li>
         </ul>
       </nav>
     </div>
